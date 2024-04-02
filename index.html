@@ -1,66 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="es-ES">
     <head>
-        <title>Mi otra página web</title>
-        <!--<link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">-->
+        <title>Mi CV</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="./style.css">
-        <!--<style>
-            p {
-                color: red;
-                width: 500px;
-                border: 1px solid black;
-            }
-        </style>-->
     </head>
     <body>
         <header>
-            <h1>
-                Título
-            </h1>
-            <h2>subtitulo nuevo</h2>
+            <h1>Mi Nombre</h1>
+            <h2>mi profesion</h2>
         </header>
-        <section class="blue">
-                <img src="https://cdn.fifakitcreator.com/kits/2023/09/25/6511e24186151.jpg" height="150" alt="Foto Bandera"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam sunt architecto voluptatibus facilis provident rem consequuntur mollitia soluta maiores eum, ab autem voluptas praesentium accusantium assumenda totam sit rerum!
-            </p>
-            <ol>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
-                <li>Elemento 3</li>
-            </ol>
-        </section>
-        <section>
-            <h2 id="productos">sección de contacto</h2>
+        <nav>
+            <a href="#acerca-de-mi">Acerca de mi</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencia">Experiencia</a>
+        </nav>
+        <main>
+            <section id="acerca-de-mi">
+                <h2>Acerca de mi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sit quae vel modi dolorum reprehenderit ipsam quod id itaque adipisci repellendus, officiis est, illo nam quisquam natus quidem ea rerum!</p>
+            </section>
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                <ol>
+                    <li>JavaScript</li>
+                    <li>HTMl</li>
+                    <li>CSS</li>
+                    <li>MongoDB</li>
+                    <li>Express</li>
+                    <li>React</li>
+                    <li>NodeJS</li>
+                </ol>
+            </section>
+            <section id="experiencia">
+                <h2>Experiencia</h2>
+                <ul>
+                    <li>Trabajo 1
+                        <ul>
+                            <li>Rol 1</li>
+                            <li>Rol 2</li>
+                        </ul>
+                    </li>
+                    <li>Trabajo 2
+                        <ul>
+                            <li>Rol 1</li>
+                            <li>Rol 2</li>
+                        </ul>
+                    </li>
 
-            <table border="2" class="blue">
-                <tr class="blue">
-                    <th>Nombre</th>
-                    <th>Descripción</th>
-                    <th>Precio</th>
-                </tr>
-                <tr class="blue">
-                    <td>Prod 1</td>
-                    <td>Desc 1</td>
-                    <td>Precio 1</td>
-                </tr>
-                <tr class="blue">
-                    <td>Prod 2</td>
-                    <td>Desc 2</td>
-                    <td>Preciopersonal 2</td>
-                </tr>
-            </table>
-        </section>
-        <section>
-            <form action="#" class="blue">
-                <!--<label for="nombre">Nombre</label>-->
-                <input name="nombre" type="text" id="nombre" placeholder="Ingrese su nombre">
-                <input name="correo" type="email" id="correo" placeholder="Ingrese su correo"><br>
-                <textarea placeholder="Ingrese su mensaje"></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
-        <footer>
-            <a href="#">recargar sitio</a>
-        </footer>
+                </ul>
+            </section>
+        </main>
+
     </body>
 </html>
