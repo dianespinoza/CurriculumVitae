@@ -3,17 +3,17 @@
 body {
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
+    font-style: normal;                                                                                        
     /*margin: 0% 20% 5% 20%; declaracion de margen en una linea (top left bottom rigth)*/
     margin: 0;
     padding-top: 60px;
 }
 
 header {
-    background-color: cadetblue;
+    background-color: #ce9c91;
     text-align: center;
     padding: 25px;
-    color: antiquewhite;
+    color: #fff;
 }
 
 main {
@@ -34,7 +34,7 @@ nav a {
 
 section {
     padding: 30px;
-    border-bottom: 1px steelblue solid;
+    border-bottom: 1px rgb(185, 20, 20) solid;
 }
 
 .menu-fijo {
@@ -43,7 +43,7 @@ section {
     left: 0;
     width: 100%;
     z-index: 99;
-    background-color: antiquewhite;
+    background-color: rgb(250, 188, 188);
 }
 
 #habilidades ul,
@@ -80,7 +80,7 @@ section {
 }
 
 .menu-fijo a:hover {
-    background-color: aqua;
+    background-color: rgb(197, 96, 113);
 }
 
 #contacto form {
@@ -109,4 +109,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+a {
+    color: #fff; 
 }
